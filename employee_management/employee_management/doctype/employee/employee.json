@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-08-07 21:56:40.915499",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_section",
+  "full_name",
+  "naming_series",
+  "email",
+  "phone",
+  "gender",
+  "dob",
+  "emergency_contact",
+  "employement_type",
+  "salary",
+  "probation_period",
+  "manager",
+  "column_break_dfpu",
+  "designation",
+  "date_of_joining",
+  "department",
+  "status",
+  "address",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_section",
+   "fieldtype": "Section Break",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive\nOn Leave",
+   "reqd": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "EMP-.##"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOther"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "emergency_contact",
+   "fieldtype": "Phone",
+   "label": "Emergency Contact"
+  },
+  {
+   "fieldname": "column_break_dfpu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "employement_type",
+   "fieldtype": "Select",
+   "label": "Employement Type",
+   "options": "Full Time\nPart Time\nContract\nIntern\nTemporary"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Currency",
+   "label": "Salary"
+  },
+  {
+   "fieldname": "probation_period",
+   "fieldtype": "Int",
+   "label": "Probation Period"
+  },
+  {
+   "fieldname": "manager",
+   "fieldtype": "Data",
+   "label": "Manager"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-14 16:36:16.689296",
+ "modified_by": "Administrator",
+ "module": "Employee Management",
+ "name": "Employee",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name",
+ "translated_doctype": 1
+}

@@ -85,6 +85,18 @@ The dashboard provides a quick view of current leave activity.
 
 ## Dashboard
 
+### Workspace
+
+![Employee Leave Management Workspace](screenshots/workspace.png)
+
+### Employee List
+
+![Employee List](screenshots/employee-list.png)
+
+### Attendance Report
+
+![Attendance Report](screenshots/attendance-report.png)
+
 The Employee Leave Management dashboard contains KPI cards for:
 
 * Total Leave Requests

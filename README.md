@@ -91,8 +91,7 @@ The dashboard provides a quick view of current leave activity.
 
 ### Employee List
 
-![Employee List](screenshots
-/employee-list.png)
+![Employee List](screenshots/employee-list.png)
 
 ### Attendance Report
 

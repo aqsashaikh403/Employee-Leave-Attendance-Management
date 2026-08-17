@@ -175,7 +175,7 @@ Clone the repository inside your Frappe Bench:
 ```bash
 cd ~/frappe-bench
 
-git clone <https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.git> apps/employee_management
+git clone https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.git apps/employee_management
 
 * Frappe Framework
 * Python

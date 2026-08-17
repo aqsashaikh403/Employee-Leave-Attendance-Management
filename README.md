@@ -152,6 +152,16 @@ More than 100 employee records were added using Frappe's Data Import functionali
 The import process was also used to update employee phone numbers while preserving existing employee records.
 
 ## Technology Used
+
+* Frappe Framework
+* Python
+* JavaScript
+* MariaDB
+* Redis
+* HTML/CSS
+* CSV Data Import
+* Linux/Ubuntu environment
+
 ## Installation & Usage
 
 This project is a custom Frappe application.
@@ -176,30 +186,60 @@ Clone the repository inside your Frappe Bench:
 cd ~/frappe-bench
 
 git clone https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.git apps/employee_management
-```text
-* Frappe Framework
-* Python
-* JavaScript
-* MariaDB
-* Redis
-* HTML/CSS
-* CSV Data Import
-* Linux/Ubuntu environment
-```markdown
+```
+
+Install the application on your Frappe site:
+
+```bash
+bench --site <YOUR-SITE-NAME> install-app employee_management
+```
+
+Run migrations:
+
+```bash
+bench --site <YOUR-SITE-NAME> migrate
+```
+
+Start Frappe:
+
+```bash
+bench start
+```
+
+### Using the Application
+
+After installation:
+
+1. Open the Employee Leave Management workspace.
+2. Create departments.
+3. Create employees.
+4. Create Leave Types.
+5. Create attendance records.
+6. Create Leave Requests.
+7. Use the leave approval workflow.
+8. View the dashboard and reports.
+
+### Data Import
+
+More than 100 employee records were added using Frappe's Data Import functionality instead of manually entering each employee.
+
+The import process was also used to update employee phone numbers while preserving existing employee records.
+
 ## Project Learning Outcomes
 
 Through this project, I practiced:
 
-* Creating and customizing DocTypes
-* Creating custom fields
-* Creating reports
-* Creating dashboards
-* Configuring workflows
-* Managing roles and permissions
-* Importing bulk data
-* Creating custom workspaces
-* Testing business workflows
-* Troubleshooting Frappe configuration and import errors
+- Creating and customizing DocTypes
+- Creating custom fields
+- Creating reports
+- Creating dashboards
+- Configuring workflows
+- Managing roles and permissions
+- Importing bulk data
+- Creating custom workspaces
+- Testing business workflows
+- Troubleshooting Frappe configuration and import errors
+
 
 ## Future Improvements
 

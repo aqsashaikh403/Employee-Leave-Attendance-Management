@@ -152,6 +152,30 @@ More than 100 employee records were added using Frappe's Data Import functionali
 The import process was also used to update employee phone numbers while preserving existing employee records.
 
 ## Technology Used
+## Installation & Usage
+
+This project is a custom Frappe application.
+
+### Prerequisites
+
+Before installing the application, make sure you have:
+
+- Ubuntu/Linux environment
+- Python
+- MariaDB
+- Redis
+- Node.js
+- Frappe Bench
+- A Frappe site
+
+### Installation
+
+Clone the repository inside your Frappe Bench:
+
+```bash
+cd ~/frappe-bench
+
+git clone <https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.git> apps/employee_management
 
 * Frappe Framework
 * Python

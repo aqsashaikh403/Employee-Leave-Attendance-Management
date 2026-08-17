@@ -176,7 +176,7 @@ Clone the repository inside your Frappe Bench:
 cd ~/frappe-bench
 
 git clone https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.git apps/employee_management
-
+```text
 * Frappe Framework
 * Python
 * JavaScript
@@ -185,7 +185,7 @@ git clone https://github.com/aqsashaikh403/Employee-Leave-Attendance-Management.
 * HTML/CSS
 * CSV Data Import
 * Linux/Ubuntu environment
-
+```markdown
 ## Project Learning Outcomes
 
 Through this project, I practiced:
